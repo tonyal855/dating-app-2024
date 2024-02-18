@@ -1,13 +1,9 @@
+Requirements
+-  Go 1.19
+-  PostgreSQL
 
-Edit file .env
-HOST=localhost
-DBPORT=5432
-USER=postgres
-PASS=password
-DBNAME=app_dealls
+Installation
+-  Edit file .env
+-  golang version go 1.19
+-  run : go run main.go
 
-Create Database name "app_dealls"
-
-go 1.19
-
-run : go run main.go
